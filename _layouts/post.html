@@ -1,0 +1,35 @@
+---
+layout: base
+common-ext-css:
+  - "/css/reading.css"
+  - "/css/blog-post.css"
+  - "/css/mucluc.css"
+  - "/css/insert-img.css"
+  - "/css/post-list.css"
+  - "/css/book-list.css"
+  - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css"
+---
+
+{% include header.html type="post" %}
+
+{% include sections/sec-front-md.html %}
+
+  <article role="main" class="blog-post">
+    {{ content }}
+  </article>
+
+  {% unless page.bookimg %}
+    {% if page.tags.size > 0 %}
+      <div class="blog-tags">
+        {% if site.link-tags %}
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+        {% else %}
+          {{ page.tags | join: ", " }}
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endunless %}
+
+{% include sections/sec-back.html %}

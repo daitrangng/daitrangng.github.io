@@ -1,0 +1,46 @@
+url: ""
+baseurl: ""
+
+excerpt_length: 50
+title-separator: "-"
+
+timezone: "Europe/Paris"
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+paginate: 16
+paginate_path: "/blog/page:num/"
+link-tags: true
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
