@@ -3,6 +3,8 @@
 
 //  Thi's custom styles
 
+// html { scroll-behavior: smooth; }
+
 :root {
   --main-bg-2: #f2f2f2;
 
@@ -19,8 +21,18 @@
 
   //-- https://www.moonpig.com/uk/
   // --main-bg: #ffd3db;
-  --main-color: #00214d;
+  // --main-color: #00214d;
   // --main-dark: #C22E50;
+
+  --main-color: black;
+}
+
+.text-muted {
+  color: #444 !important;
+}
+
+a {
+  color: #0779cd;
 }
 
 body {
@@ -28,7 +40,7 @@ body {
   color: var(--main-color);
 }
 
-.section-title {
+.section-title, section h2 {
   background: linear-gradient(to right, #5477ff 0%, #ff0065 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
