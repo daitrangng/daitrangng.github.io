@@ -15,11 +15,12 @@
   //-- https://coolors.co/palettes/popular/pink
   // --main-bg: #ffe5ec;
   // --main-dark: #fb6f92;
+  --main-dark: #e7577b; // modified from above
 
   //-- https://www.moonpig.com/uk/
   --main-bg: #ffd3db;
   --main-color: #00214d;
-  --main-dark: #C22E50;
+  // --main-dark: #C22E50;
 }
 
 body {
@@ -54,11 +55,23 @@ a:focus {
 }
 
 .navbar-custom {
-  background-color: var(--main-bg);
+  // background-color: var(--main-bg);
+  background: linear-gradient(180deg, var(--main-bg) 0%, var(--main-bg-2) 100%);
+  box-shadow: 1px 1px 20px 0px #dfdfdf;
 }
 
 .alt-color:nth-child(odd) {
-  background-color: var(--main-bg);
+  // background-color: var(--main-bg);
+  background: linear-gradient(180deg, var(--main-bg) 0%, var(--main-bg-2) 100%);
+}
+
+footer {
+  box-shadow: 1px 1px 20px 0px #dfdfdf;
+  // background: linear-gradient(0deg, var(--main-bg) 0%, var(--main-bg-2) 100%);
+}
+
+.intro-header .page-heading {
+  margin-top: 3rem;
 }
 
 // ------
