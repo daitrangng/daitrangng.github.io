@@ -34,12 +34,14 @@
 /*----- TIMELINE INFO -----*/
 .timeline-info {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 3px;
   margin: 0 0 .5em 0;
   text-transform: uppercase;
   white-space: nowrap;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* color: #840fd4; */
+  color: black;
 }
 
 /*----- TIMELINE MARKER -----*/
