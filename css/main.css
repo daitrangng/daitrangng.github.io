@@ -176,10 +176,10 @@ hr.small {
   text-shadow: none;
   background-color: #c8d2fa;
 }
-::selection {
+/* ::selection {
   text-shadow: none;
   background-color: #c8d2fa;
-}
+} */
 img::selection {
   color: #c8d2fa;
   background: transparent;
