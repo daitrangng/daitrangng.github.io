@@ -81,7 +81,8 @@ a:focus {
   // background-color: var(--main-bg);
   background: linear-gradient(180deg, var(--main-bg) 0%, var(--main-bg-2) 100%);
   // box-shadow: 1px 1px 20px 0px #dfdfdf;
-  border-bottom: 1px solid #dfdfdf;
+  border-bottom: 1px solid var(--main-bg);
+  color: #3c5aba;
 }
 
 .alt-color:nth-child(odd) {
