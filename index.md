@@ -12,9 +12,8 @@ css:
 <section class="alt-color">
   {% include sections/sec-front-md.html %}
   <p class="text-justify" style="margin: 0;" markdown="1">
-  My full name is "Thi Dai Trang Nguyen", I am currently a Ph.D. Candidate and Graduate Teaching Assistant at Wayne State University. 
-  Research interest: Optimization, Optimal Control, Nonlinear and Variational Analysis
-                     ODEs/PDEs, Statistics, Data Science, Dynamical Systems and Applications.
+  My full name is "Thi Dai Trang Nguyen", I am currently a Ph.D. Candidate and Graduate Teaching Assistant at Wayne State University. <br />
+  Research interest: Optimization, Optimal Control, Nonlinear and Variational Analysis, ODEs/PDEs, Statistics, Data Science, Dynamical Systems and Applications.
   </p>
   {% include sections/sec-back.html %}
 </section>
