@@ -12,7 +12,9 @@ css:
 <section class="alt-color">
   {% include sections/sec-front-md.html %}
   <p class="text-justify" style="margin: 0;" markdown="1">
-  I am **Chang**, a Mathematician and a Math teacher. My research focuses on the field of random graphs, in particular, random networks with applications in Statistics. I am also interested in the probabilistic models, deep learning networks for the study of Epidemic and Biology.
+  My full name is "Thi Dai Trang Nguyen", I am currently a Ph.D. Candidate and Graduate Teaching Assistant at Wayne State University. 
+  Research interest: Optimization, Optimal Control, Nonlinear and Variational Analysis
+                     ODEs/PDEs, Statistics, Data Science, Dynamical Systems and Applications.
   </p>
   {% include sections/sec-back.html %}
 </section>
