@@ -1,10 +1,10 @@
 site:
   title: Trang Nguyen
-  description: Assistant professor in Applied Mathematics at ENSIIE Évry
+  description: Ph.D. candidate at the Department of Mathematics at Wayne State University
 
 author:
   name: Trang Nguyen
-  email: ha2288@wayne.edu
+  email: daitrang.nguyen@wayne.edu
   avatar: "/img/avatar-icon.jpg"
 
 navbar-links:

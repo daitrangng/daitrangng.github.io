@@ -12,18 +12,17 @@ css:
 <section class="alt-color">
   {% include sections/sec-front-md.html %}
   <p class="text-justify" style="margin: 0;" markdown="1">
-  I am **Thuy**, a Mathematician and a Math teacher. My research focuses on the field of random graphs, in particular, random networks with applications in Statistics. I am also interested in the probabilistic models, deep learning networks for the study of Epidemic and Biology.
+  I am **Chang**, a Mathematician and a Math teacher. My research focuses on the field of random graphs, in particular, random networks with applications in Statistics. I am also interested in the probabilistic models, deep learning networks for the study of Epidemic and Biology.
   </p>
   {% include sections/sec-back.html %}
 </section>
 
-<!-- research -->
+<!-- education -->
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
   {% include sections/sec-timeline.html
-    heading="Research Experiences"
-    source=site.data.research
-    ref="research"
+    heading="Education"
+    source=site.data.education
   %}
   {% include sections/sec-back.html %}
 </section>
@@ -49,15 +48,17 @@ css:
   {% include sections/sec-back.html %}
 </section>
 
-<!-- education -->
+<!-- conferences -->
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
   {% include sections/sec-timeline.html
-    heading="Education"
-    source=site.data.education
+    heading="Conferences"
+    source=site.data.conferences
+    ref="conferences"
   %}
   {% include sections/sec-back.html %}
 </section>
+
 
 <!-- contact -->
 <section class="alt-color">
