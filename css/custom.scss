@@ -26,6 +26,7 @@
   // --main-dark: #C22E50;
 
   --main-color: black;
+  --text-dark: #0d7299;
 }
 
 .text-muted {
@@ -82,7 +83,7 @@ a:focus {
   background: linear-gradient(180deg, var(--main-bg) 0%, var(--main-bg-2) 100%);
   // box-shadow: 1px 1px 20px 0px #dfdfdf;
   border-bottom: 1px solid var(--main-bg);
-  color: #3c5aba;
+  color: var(--text-dark);
 }
 
 .alt-color:nth-child(odd) {

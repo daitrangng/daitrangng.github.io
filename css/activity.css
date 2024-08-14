@@ -41,7 +41,8 @@
   white-space: nowrap;
   /* font-family: 'Open Sans', sans-serif; */
   /* color: #840fd4; */
-  color: black;
+  /* color: black; */
+  color: var(--text-dark);
 }
 
 /*----- TIMELINE MARKER -----*/
