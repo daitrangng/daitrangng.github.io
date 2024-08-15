@@ -1,20 +1,20 @@
 - author:
-    - "Reviewer for"
-  more: "Journal of Set-Valued and Variational Analysis"
-  more: "Journal of Optimization Theory and Applications"
+    - "Reviewer for Journal of Set-Valued and Variational Analysis"
+- author:
+    - "Reviewer for Journal of Optimization Theory and Applications"
   source-prefix: "ORCID:"
   source: "https://orcid.org/0000-0002-8821-7399"
 - author:
     - "Organize the 2023 Annual Midwest Optimization Meeting (MOM25), Ann Arbor, Michigan, USA."
   source: "https://emunix.emich.edu/~bwang/MOM2023/index.html"
 - author:
-    - "Lab instructor"
-  more: "Mathematics Computer Lab: This lab is for undergraduate students in the basic courses including
-Beginning Algebra, Mathematics in Today's World, College Algebra, and Elementary Statistics."
-  more: "Mathematics Resource Center: This is a center providing cost-free tutoring by Wayne State
-University's Department of Mathematics. It is available for all Wayne State students who are
-enrolled in any mathematics courses."
+    - "Lab instructor in Mathematics Computer Lab (This computer lab is for students currently enrolled in MAT 0993, MAT 1000, MAT 1070 and STA 1020)"
+- author: 
+    - "Lab instructor in Mathematics Resource Center (This lab is a free tutoring service provided to Wayne State math students)"
+  source: "https://clas.wayne.edu/math/students/resources/mrc"
 - author:
     - " Student Scientific Research Project, Quy Nhon University"
   more: "Project: Picard method, Newton method and applications into approximate calculation the solutions of equation"
+- author:
+    - " Student Scientific Research Project, Quy Nhon University"
   more: "Project: Markov partition for the hyperbolic automorphism of the torus"
