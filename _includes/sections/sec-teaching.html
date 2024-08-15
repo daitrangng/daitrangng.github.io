@@ -21,12 +21,14 @@
                 <b>{{ cr.name }}</b>
               {% endif %}
             </div>
-            {% if cr.university %}
+            {% if cr.university or cr.date  %}
               <div class="course-univ">
-                <i>{{ cr.university }}</i>
+                {% if cr.university %}
+                  <i>{{ cr.university }}</i>
+                {% endif %}
+                {% if cr.date %} -- {{ cr.date }}{% endif %}
               </div>
             {% endif %}
-            {% if cr.date %} -- {{ cr.date }}{% endif %}
             <div class="course-info">
               {% if cr.files %}
                 {% for f in cr.files %}
