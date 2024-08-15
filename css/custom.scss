@@ -86,7 +86,7 @@ a:focus {
   color: var(--text-dark);
 }
 
-.alt-color:nth-child(odd) {
+.alt-color:nth-child(even) {
   // background-color: var(--main-bg);
   background: linear-gradient(180deg, var(--main-bg) 0%, var(--main-bg-2) 100%);
 }

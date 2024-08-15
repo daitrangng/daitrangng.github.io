@@ -102,7 +102,7 @@
             <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
             {% endif %}
 						{% else %}
-              {% if page.url == "/" %}
+              {% if page.url == "/" and site.data.settings.site.description %}
 							<hr class="small" />
 							<span class="{{ include.type }}-subheading"
 								>{{ site.data.settings.site.description }}</span

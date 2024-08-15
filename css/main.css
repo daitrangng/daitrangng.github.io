@@ -81,7 +81,8 @@ section:last-child{
 section h2{
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 section h2 + h4{
   text-align: center;
