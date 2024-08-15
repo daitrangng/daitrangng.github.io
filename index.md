@@ -1,9 +1,9 @@
 ---
 layout: base
 css:
-  - "/css/reading.css"
-  - "/css/activity.css"
-  - "/css/post-list.css"
+  - '/css/reading.css'
+  - '/css/activity.css'
+  - '/css/post-list.css'
 ---
 
 {% include header.html type="page" %}
@@ -11,12 +11,16 @@ css:
 <!-- intro -->
 <section class="alt-color">
   {% include sections/sec-front-md.html %}
-  <p class="text-justify" style="margin: 0;" markdown="1">
-  My full name is "Thi Dai Trang Nguyen", I am currently a Ph.D. Candidate and Graduate Teaching Assistant in Mathematics at Wayne State University. <br />
-  Research interest: <br />
-  - Optimization, Optimal Control, Nonlinear and Variational Analysis, Dynamical Systems and Applications. <br />
-  - ODEs/PDEs, Statistics, and Data Science.
-  </p>
+  <div class="me-description">
+  My full name is "Thi Dai Trang Nguyen", I am currently a Ph.D. Candidate and Graduate Teaching Assistant in Mathematics at Wayne State University.
+  </div>
+  <div class="me-description">
+    Research interest:
+    <ul>
+      <li>Optimization, Optimal Control, Nonlinear and Variational Analysis, Dynamical Systems and Applications.</li>
+      <li>ODEs/PDEs, Statistics, and Data Science.</li>
+    </ul>
+  </div>
   {% include sections/sec-back.html %}
 </section>
 
@@ -61,7 +65,6 @@ css:
   %}
   {% include sections/sec-back.html %}
 </section>
-
 
 <!-- contact -->
 <section class="alt-color">
