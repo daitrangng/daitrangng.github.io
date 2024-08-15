@@ -66,6 +66,16 @@ css:
   {% include sections/sec-back.html %}
 </section>
 
+<!-- award -->
+<section class="alt-color">
+  {% include sections/sec-front-lg.html %}
+  {% include sections/sec-teaching.html
+    heading="Honors and Awards"
+    source=site.data.award
+    ref="award" %}
+  {% include sections/sec-back.html %}
+</section>
+
 <!-- contact -->
 <section class="alt-color">
   {% include sections/sec-front-md.html %}
