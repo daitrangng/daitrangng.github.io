@@ -56,9 +56,20 @@ css:
 </section>
 
 <!-- conferences -->
+<!-- <section class="alt-color">
+  {% include sections/sec-front-lg.html %}
+  {% include sections/sec-teaching.html
+    heading="Conferences"
+    source=site.data.conferences2
+    ref="conferences"
+  %}
+  {% include sections/sec-back.html %}
+</section> -->
+
+<!-- conferences -->
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
-  {% include sections/sec-timeline.html
+  {% include sections/sec-conferences.html
     heading="Conferences"
     source=site.data.conferences
     ref="conferences"

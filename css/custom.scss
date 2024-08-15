@@ -29,6 +29,22 @@
   --text-dark: #0d7299;
 }
 
+.timeline-narrow {
+  .timeline-content {
+    padding-bottom: 20px;
+  }
+}
+
+.sub-section-title {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 25px;
+  border-bottom: 2px dashed #aaa;
+  width: min(100%, 200px);
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
 .text-muted {
   color: #444 !important;
 }
@@ -64,7 +80,7 @@ a:focus {
 
 .me-description {
   margin: 10px 0;
-  text-align: justify;
+  // text-align: justify;
   li {
     margin: 5px 0;
   }
@@ -160,7 +176,13 @@ strong {
 
     & > * {
       margin-bottom: 5px;
-      text-align: justify;
+      // text-align: justify;
+    }
+
+    .source {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
 }
