@@ -6,9 +6,8 @@
   courses:
     - name: "MAT 2030- Calculus III"
       more: "Spring/Summer 2024, 4 credits, main instructor."
-    - name: "Probabilité et Statistiques pour 2eme année d'Ingénieur en Physiques et Chimie"
-      university: "Université Sorbonne Paris Nord"
-      date: "2eme semestre"
+    - name: "MAT 2210- Probability and Statistics, 4 credits."
+      more: "Winter 2024, 4 credits, main instructor."
     - name: "Statistiques pour L3 en Informatiques"
       university: "Université Sorbonne Paris Nord"
       date: "1ere semestre"
