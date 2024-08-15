@@ -1,8 +1,7 @@
 - author:
-    - "Reviewer for Journal of Set-Valued and Variational Analysis"
-  more: "e5rgavsrekgbvireb"
-- author:
-    - "Reviewer for Journal of Optimization Theory and Applications"
+    - "Reviewer for"
+  more: "Journal of Set-Valued and Variational Analysis"
+  more: "Journal of Optimization Theory and Applications"
   source-prefix: "ORCID:"
   source: "https://orcid.org/0000-0002-8821-7399"
 - author:
@@ -10,7 +9,6 @@
   source: "https://emunix.emich.edu/~bwang/MOM2023/index.html"
 - author:
     - "Lab instructor:"
-  title: "Applications of controlled sweeping processes to nonlinear crowd motion models with obstacles"
-  publisher: "IEEE Control Systems Letters, vol. 6, pp. 740-745, 2022"
-  source-prefix: "DOI:"
-  source: "https://doi.org/10.1109/LCSYS.2021.3085953"
+  more: "Mathematics Computer Lab: This lab is for undergraduate students in the basic courses including
+Beginning Algebra, Mathematics in Today's World, College Algebra, and Elementary Statistics."
+ 
