@@ -5,12 +5,14 @@
   source-prefix: "ORCID:"
   source: "https://orcid.org/0000-0002-8821-7399"
 - author:
-    - "Organize the 2023 Annual Midwest Optimization Meeting (MOM25), Ann Arbor, Michigan, USA."
+    - "Organize the 2023 Annual Midwest Optimization Meeting (MOM25), Ann Arbor, Michigan, USA"
   source: "https://emunix.emich.edu/~bwang/MOM2023/index.html"
 - author:
-    - "Lab instructor in Mathematics Computer Lab (This computer lab is for students currently enrolled in MAT 0993, MAT 1000, MAT 1070 and STA 1020)"
+    - "Lab instructor in Mathematics Computer Lab"
+    more: "This computer lab is for students currently enrolled in MAT 0993, MAT 1000, MAT 1070 and STA 1020"
 - author: 
-    - "Lab instructor in Mathematics Resource Center (This lab is a free tutoring service provided to Wayne State math students)"
+    - "Lab instructor in Mathematics Resource Center"
+  more: "This lab is a free tutoring service provided to Wayne State math students"
   source: "https://clas.wayne.edu/math/students/resources/mrc"
 - author:
     - " Student Scientific Research Project, Quy Nhon University"
