@@ -26,6 +26,15 @@
   source-prefix: "DOI:"
   source: "https://doi.org/10.1007/s00245-024-10108-7"
 - author:
+    - "G. Colombo"
+    - "B. S. Mordukhovich"
+    - "D. Nguyen"
+    - "T. Nguyen"
+  title: "Poster: Optimization of controlled free-time sweeping processes and applications"
+  publisher: "AWM Workshop Poster Session, SIAM Conference on
+Optimization, Seattle, US (2023)"
+  source: "https://waynestateprod-my.sharepoint.com/:b:/g/personal/ha2288_wayne_edu/EdqODMo3eFdJmhm6XKvG-aYBWw6lcN_AVprUUchV3ahzEw?e=tJM1Df"
+- author:
     - "T. H. Cao"
     - "B. S. Mordukhovich"
     - "D. Nguyen"
@@ -42,7 +51,7 @@
     - "F. L. Pereira"
     - "T. Nguyen"
   title: "Optimization of controlled free-time sweeping processes with applications to marine surface vehicle modeling"
-  publisher: "IEEE Control Systems Letters, vol. 6, pp. 782-787, 2021"
+  publisher: "IEEE Control Systems Letters, vol. 6, pp. 782-787, 2022"
   source-prefix: "DOI:"
   source: "https://doi.org/10.1109/LCSYS.2021.3085900"
 - author:
