@@ -5,12 +5,12 @@
   courses:
     - name: "The Oustanding Graduate Award, Department of Mathematics, Wayne State University."
     - name: "The William Martin Borgman Endowed Scholarship in Recognition of Outstanding Achievement, Department of Mathematics, Wayne State University."
-    - name: "Travel Award by University of Michigan and sponsors (NSF and MCAIM), to present at MOM 2023, Ann Arbor, Michigan, U.S."
+    - name: "Travel Award by University of Michigan and sponsors (NSF and MCAIM), to present at MOM 2023, Ann Arbor, Michigan, USA."
 - year: "2022 - 2023"
   courses:
     - name: "SIAM Student Travel Award, to present at 2023 SIAM Conference on Optimization (OP23), Seattle,
-Washington, United States."
-    - name: "The AWM’s Travel Award, by the NSF-DMS Grant No. 2113506, to present at AWM Workshop in
+Washington, USA."
+    - name: "The AWM's Travel Award, by the NSF-DMS Grant No. 2113506, to present at AWM Workshop in
 conjunction with SIAM Conference on Optimization (OP23), Seattle, Washington, USA."
     - name: "SIAM Student Travel Award, 2023 SIAM Conference on Computational Science and Engineering
 (CSE23), Amsterdam, The Netherlands."
@@ -23,15 +23,15 @@ Chile."
 - year: "2021 - 2022"
   courses:
     - name: "The M.F. Janowitz Scholarship in Recognition of Outstanding Achievement, Department of Mathematics, Wayne State University."
-    - name: "Government’s Scholarships for outstanding undergraduate student."
+    - name: "Government's Scholarships for outstanding undergraduate student."
 - year: "2017 - 2018"
   courses:
     - name: "Award for excellent mathematical students, National Program for the Development of Mathematics."
-    - name: "Government’s Scholarships for outstanding undergraduate student."
+    - name: "Government's Scholarships for outstanding undergraduate student."
 - year: "2016 - 2017"
   courses:
     - name: "Award for excellent mathematical students, National Program for the Development of Mathematics."
-    - name: "Government’s Scholarships for outstanding undergraduate student."
+    - name: "Government's Scholarships for outstanding undergraduate student."
     - name: "Certificate for the National Mathematical Olympiads in Analysis, for Undergraduate Students, Phu Yen University, Vietnam."
     - name: "Certificate completion of Student Scientific Research Project, University level Academic."
       more: "Project: Markov partition for the hyperbolic automorphism of the torus."
@@ -42,9 +42,9 @@ Quy Nhon University, Vietnam."
     - name: "Certificate completion of Student Scientific Research Project, University level Academic."
       more: " Project: Picard method, Newton method and applications into approximate calculation the solutions
 of equation."
-    - name: "Government’s Scholarships for outstanding undergraduate student."
+    - name: "Government's Scholarships for outstanding undergraduate student."
 - year: "2014 - 2015
     - name: "Incentive prize in Analysis in the National Mathematical Olympiads, for Undergraduate Students, Hue University of Science, Vietnam."
-    - name: "Government’s Scholarships for outstanding undergraduate student."
+    - name: "Government's Scholarships for outstanding undergraduate student."
 
 
