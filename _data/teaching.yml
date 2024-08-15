@@ -13,7 +13,7 @@
       date: "Winter 2024"
     - name: "STA 1020- Elementary Statistics, 3 credits"
       university: "Main instructor"
-      date: "Fall 23"
+      date: "Fall 2023"
 - year: "2022 - 2023"
   courses:
     - name: "MAT 2030- Calculus III, 4 credits"
@@ -24,7 +24,7 @@
       date: "Winter 2023"
     - name: "MAT 1070- College Algebra, 5 credits"
       university: "Main instructor"
-      date: "Fall 22"
+      date: "Fall 2022"
 - year: "2021 - 2022"
   courses:
     - name: "MAT 2030- Calculus III, 4 credits"
@@ -35,8 +35,9 @@
       date: "Winter 2022"
     - name: "MAT 1070- College Algebra, 5 credits"
       university: "Main instructor"
-      date: "Fall 21"
+      date: "Fall 2021"
 - year: "2017 - 2018"
   courses:
     - name: "Algebra & Geometry"
       university: "Internship at Nguyen Thai Hoc high school and Nguyen Hue high school"
+      date: "Winter 2018"
