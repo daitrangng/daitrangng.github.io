@@ -1,11 +1,11 @@
 - year: "2024 - 2025"
   courses:
     - name: "MAT 2010- Calculus I"
-      university: "Fall 2024, 4 credits, main instructor."  
+      more: "Fall 2024, 4 credits, main instructor."  
 - year: "2023 - 2024"
   courses:
     - name: "MAT 2030- Calculus III"
-      university: "Spring/Summer 2024, 4 credits, main instructor."
+      more: "Spring/Summer 2024, 4 credits, main instructor."
       # date: "2eme semestre"
       # more: 
       # files:
