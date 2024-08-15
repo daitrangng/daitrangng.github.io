@@ -12,7 +12,7 @@ css:
 <section class="alt-color">
   {% include sections/sec-front-md.html %}
   <p class="text-justify" style="margin: 0;" markdown="1">
-  My full name is "Thi Dai Trang Nguyen", I am currently a Ph.D. Candidate in Applied Mathematics. I also work as a Graduate Teaching Assistant in the Department of Mathematics, Wayne State University. <br />
+  My full name is "Thi Dai Trang Nguyen", I am currently a Ph.D. Candidate and Graduate Teaching Assistant in Mathematics at Wayne State University. <br />
   Research interest: <br />
   - Optimization, Optimal Control, Nonlinear and Variational Analysis, Dynamical Systems and Applications. <br />
   - ODEs/PDEs, Statistics, and Data Science.
