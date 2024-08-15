@@ -45,6 +45,17 @@ css:
   {% include sections/sec-back.html %}
 </section>
 
+<!-- activities -->
+<section class="alt-color">
+  {% include sections/sec-front-lg.html %}
+  {% include sections/sec-publications.html
+    heading="Services / Extracurricular Activies"
+    source=site.data.activities
+    ref="activities"
+  %}
+  {% include sections/sec-back.html %}
+</section>
+
 <!-- teaching -->
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}

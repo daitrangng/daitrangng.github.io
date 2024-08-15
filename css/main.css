@@ -221,6 +221,7 @@ img {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
+  white-space: nowrap;
 }
 
 .navbar-custom .navbar-brand,
