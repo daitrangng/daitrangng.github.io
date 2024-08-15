@@ -1,22 +1,14 @@
 - author:
-    - "Reviewer for"
-  title: "Journal of Set-Valued and Variational Analysis"
-  publisher: "Submitted, 2024"
-  source-prefix: "DOI:"
-  source: "https://doi.org/10.48550/arXiv.2405.08986"
+    - "Reviewer for Journal of Set-Valued and Variational Analysis"
 - author:
-    - "Reviewer for"
-  title: "Journal of Optimization Theory and Applications"
-  publisher: "Optimization, pp. 1-33, 2024"
-  source: "https://doi.org/10.1080/02331934.2024.2366832"
+    - "Reviewer for Journal of Optimization Theory and Applications"
+  source-prefix: "ORCID:"
+  source: "https://orcid.org/0000-0002-8821-7399"
 - author:
     - "Organize the 2023 Annual Midwest Optimization Meeting (MOM25), Ann Arbor, Michigan, USA."
   source: "https://emunix.emich.edu/~bwang/MOM2023/index.html"
 - author:
-    - "T. H. Cao"
-    - "B. S. Mordukhovich"
-    - "D. Nguyen"
-    - "T. Nguyen"
+    - "Lab instructor:"
   title: "Applications of controlled sweeping processes to nonlinear crowd motion models with obstacles"
   publisher: "IEEE Control Systems Letters, vol. 6, pp. 740-745, 2022"
   source-prefix: "DOI:"
