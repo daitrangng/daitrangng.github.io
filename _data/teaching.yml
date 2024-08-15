@@ -1,35 +1,35 @@
-- year: "2020 - 2021"
+- year: "2024 - 2025"
   courses:
-    - name: "Probabilité et Statistiques pour L2 en Economie - Gestion"
-      university: "Université Gustave Eiffel"
-      date: "1ere semestre"
-      files:
-        - name: "Exercices"
-          url: "files/TD_proba_S3.pdf"
-        - name: "Contrôle continu"
-          url: "files/CC1_proba_S3.pdf"
-    - name: "Mathématiques pour L1 en Economie - Gestion"
-      university: "Université Gustave Eiffel"
-      date: "1ere semestre"
-      files:
-        - name: "Contrôle continu"
-          url: "files/CC1_maths_S1.pdf"
-    - name: "Probabilité et Statistiques pour L1 en Economie - Gestion"
-      university: "Université Gustave Eiffel"
-      date: "2eme semestre"
-      files:
-        - name: "Contrôle continu"
-          url: "files/CC_proba_S2.pdf"
-    - name: "Mathématiques pour L1 en Economie - Gestion"
-      university: "Université Gustave Eiffel"
-      date: "2eme semestre"
-      files:
-        - name: "Contrôle continu"
-          url: "files/CC_maths_S2.pdf"   
-- year: "2019 - 2020"
+    - name: "MAT 2010 (Calculus I ), 4 credits."
+      university: "Fall 2024, main instructor."
+      # date: "1ere semestre"
+      # files:
+      #   - name: "Exercices"
+      #     url: "files/TD_proba_S3.pdf"
+      #   - name: "Contrôle continu"
+      #     url: "files/CC1_proba_S3.pdf"
+    # - name: "Mathématiques pour L1 en Economie - Gestion"
+    #   university: "Université Gustave Eiffel"
+    #   date: "1ere semestre"
+    #   files:
+    #     - name: "Contrôle continu"
+    #       url: "files/CC1_maths_S1.pdf"
+    # - name: "Probabilité et Statistiques pour L1 en Economie - Gestion"
+    #   university: "Université Gustave Eiffel"
+    #   date: "2eme semestre"
+    #   files:
+    #     - name: "Contrôle continu"
+    #       url: "files/CC_proba_S2.pdf"
+    # - name: "Mathématiques pour L1 en Economie - Gestion"
+    #   university: "Université Gustave Eiffel"
+    #   date: "2eme semestre"
+    #   files:
+    #     - name: "Contrôle continu"
+    #       url: "files/CC_maths_S2.pdf"   
+- year: "2023 - 2024"
   courses:
-    - name: "Statistiques L2 de Mathematiques"
-      university: "Université Sorbonne Paris Nord"
+    - name: "MAT 2030 (Calculus III ), 4 credits."
+      university: "Spring/Summer 2024, main instructor."
       date: "2eme semestre"
       more: 
       files:
