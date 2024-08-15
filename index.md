@@ -83,6 +83,7 @@ css:
   {% include sections/sec-teaching.html
     heading="Honors and Awards"
     source=site.data.award
+    light=true
     ref="award" %}
   {% include sections/sec-back.html %}
 </section>

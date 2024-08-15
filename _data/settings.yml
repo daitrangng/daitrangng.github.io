@@ -11,6 +11,7 @@ navbar-links:
   '<i class="far fa-newspaper"></i> Publications': "#publications"
   '<i class="fas fa-book-open"></i> Teaching': "#teaching"
   '<i class="fas fa-microscope"></i> Conferences': "#conferences"
+  '<i class="fas fa-award"></i> Awards': "#award"
   # more:
   #   - '<i class="fas fa-pen-fancy"></i> Blog': "blog"
 

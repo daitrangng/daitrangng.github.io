@@ -15,11 +15,18 @@
         {% for cr in item.courses %}
           <li class="course-item">
             <div class="course-name">
-              <b>{{ cr.name }}</b>
+              {% if include.light %}
+                {{ cr.name }}
+              {% else %}
+                <b>{{ cr.name }}</b>
+              {% endif %}
             </div>
-            <div class="course-univ">
-              <i>{{ cr.university }}</i> -- {{ cr.date }}
-            </div>
+            {% if cr.university %}
+              <div class="course-univ">
+                <i>{{ cr.university }}</i>
+              </div>
+            {% endif %}
+            {% if cr.date %} -- {{ cr.date }}{% endif %}
             <div class="course-info">
               {% if cr.files %}
                 {% for f in cr.files %}
