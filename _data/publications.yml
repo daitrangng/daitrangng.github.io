@@ -58,7 +58,6 @@
   publisher: "IEEE Control Systems Letters, vol. 6, pp. 740-745, 2022"
   source-prefix: "DOI:"
   source: "https://doi.org/10.1109/LCSYS.2021.3085953"
-  # more: "CEMRACS 2018 - Numerical and mathematical modeling for biological and medical applications: deterministic, probabilistic and statistical descriptions"
 - author:
     - "T. H. Cao"
     - "N. T. Khalil"
