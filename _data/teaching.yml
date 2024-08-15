@@ -6,14 +6,6 @@
   courses:
     - name: "MAT 2030- Calculus III"
       more: "Spring/Summer 2024, 4 credits, main instructor."
-      # date: "2eme semestre"
-      # more: 
-      # files:
-      #   - name: "Lecture note"
-      #     url: "files/file_1_2.pdf"
-      #   - name: "Examen"
-      #     url: "files/exam.pdf"
-      # url: https://www.math.univ-paris13.fr/~tournier/fichiers/ccs/2018/poly.pdf
     - name: "Probabilité et Statistiques pour 2eme année d'Ingénieur en Physiques et Chimie"
       university: "Université Sorbonne Paris Nord"
       date: "2eme semestre"
