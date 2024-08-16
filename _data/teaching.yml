@@ -11,10 +11,10 @@
     - name: "STA 2210- Probability and Statistics, 4 credits"
       university: "Main instructor"
       date: "Winter 2024"
-      ref: "https://clasprofiles.wayne.edu/profile/ha2288"
     - name: "STA 1020- Elementary Statistics, 3 credits"
       university: "Main instructor"
       date: "Fall 2023"
+      ref: "https://clasprofiles.wayne.edu/profile/ao8242"
 - year: "2022 - 2023"
   courses:
     - name: "MAT 2030- Calculus III, 4 credits"
