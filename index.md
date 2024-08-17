@@ -45,7 +45,7 @@ css:
   {% include sections/sec-back.html %}
 </section>
 
-<!-- activities -->
+<!-- services / activities -->
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
   {% include sections/sec-publications.html
@@ -65,17 +65,6 @@ css:
     ref="teaching" %}
   {% include sections/sec-back.html %}
 </section>
-
-<!-- conferences -->
-<!-- <section class="alt-color">
-  {% include sections/sec-front-lg.html %}
-  {% include sections/sec-teaching.html
-    heading="Conferences"
-    source=site.data.conferences2
-    ref="conferences"
-  %}
-  {% include sections/sec-back.html %}
-</section> -->
 
 <!-- conferences -->
 <section class="alt-color">

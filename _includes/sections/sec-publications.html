@@ -6,15 +6,32 @@
 <ul class="publications">
   {% for item in include.source limit: include.limit %}
   <li class="item">
-    <div class="name">
-      {% for name in item.author %}{% unless forloop.last %}{% unless forloop.first %},{% endunless %} {% else %}{%
-        unless forloop.first %} and {% endunless %}{% endunless %}<b>{{ name }}</b>{% endfor %}.
-    </div>
-    <div class="title">
-      "{{ item.title }}".
-      {% if item.publisher %}<i>{{ item.publisher }}</i>.{% endif %}
-      {% if item.more %}{{ item.more }}.{% endif %}
-    </div>
+    {% if item.author %}
+      <div class="name">
+        {% for name in item.author %}{% unless forloop.last %}{% unless forloop.first %},{% endunless %} {% else %}{%
+          unless forloop.first %} and {% endunless %}{% endunless %}<b>{{ name }}</b>{% endfor %}.
+      </div>
+    {% endif %}
+    {% if item.title %}
+      <div class="title">
+        "{{ item.title }}".
+        {% if item.publisher %}<i>{{ item.publisher }}</i>.{% endif %}
+        {% if item.more %}{{ item.more }}.{% endif %}
+      </div>
+    {% endif %}
+
+    <!-- for activities -->
+    {% if item.activity %}
+      <div class="activity">{{item.activity | markdownify}}</div>
+    {% endif %}
+
+    {% if item.more %}
+      <div class="more">
+        {{ item.more | markdownify }}
+      </div>
+    {% endif %}
+
+    <!-- both -->
     {% if item.source %}
       <div class="source">
         {% if item.source-prefix %}{{ item.source-prefix }}{% endif %}
