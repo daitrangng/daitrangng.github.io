@@ -205,12 +205,22 @@ strong {
         margin-bottom: 10px;
       }
 
-      .course-univ {
-        font-size: 97%;
+      .course-date-role {
+        margin-top: 5px;
       }
 
-      .course-info {
+      .course-more {
+        margin-top: 5px;
         font-size: 95%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        i {
+          opacity: 0.6;
+        }
+        p {
+          margin-top: 0;
+        }
       }
     }
   }
