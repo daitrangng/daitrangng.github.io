@@ -1,5 +1,8 @@
 - year: "2024 - 2025"
   courses:
+    - name: "TBA"
+      role: "Main instructor"
+      date: "Winter 2025"
     - name: "MAT 2010- Calculus I, 4 credits"
       role: "Main instructor"
       date: "Fall 2024"
@@ -8,6 +11,7 @@
     - name: "MAT 2030- Calculus III, 4 credits"
       role: "Main instructor"
       date: "Spring/Summer 2024"
+      more: "Individual report, Qualitative Report (TBU)"
     - name: "STA 2210- Probability and Statistics, 4 credits"
       role: "Main instructor"
       date: "Winter 2024"
