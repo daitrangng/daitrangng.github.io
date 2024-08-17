@@ -117,6 +117,7 @@ a:focus {
 .alt-color:nth-child(even) {
   // background-color: var(--main-bg);
   background: linear-gradient(180deg, var(--main-bg) 0%, var(--main-bg-2) 100%);
+  padding-bottom: 0px;
 }
 
 footer {
@@ -193,7 +194,6 @@ strong {
     }
 
     .activity {
-      font-weight: 600;
       margin-bottom: 5px;
       p {
         margin-top: 0;
@@ -210,6 +210,16 @@ strong {
   }
   .email {
     margin-top: 1.5rem;
+  }
+}
+
+.me-desc {
+  padding-top: 20px;
+}
+
+.header-index {
+  @media only screen and (min-width: 768px) {
+    padding-top: 50px;
   }
 }
 

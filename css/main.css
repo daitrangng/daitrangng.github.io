@@ -73,7 +73,7 @@ a:hover{
 
 /* Index page */
 section{
-  padding: 50px 20px;
+  padding: 40px 10px;
 }
 section:last-child{
   padding-bottom: 0px;
@@ -302,7 +302,8 @@ img {
     /* margin-top: -50px; */
     display: block;
     position: fixed;
-    top: 50px;
+    /* top: 50px; */
+    top: 120px;
   }
 
   .navbar-custom .avatar-container  .avatar-img-border {

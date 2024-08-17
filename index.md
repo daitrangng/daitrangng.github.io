@@ -9,7 +9,7 @@ css:
 {% include header.html type="page" %}
 
 <!-- intro -->
-<section class="alt-color">
+<section class="alt-color me-desc">
   {% include sections/sec-front-md.html %}
   <div class="me-description">
   My full name is "Thi Dai Trang Nguyen", I am currently a Ph.D. Candidate and Graduate Teaching Assistant in Mathematics at Wayne State University.
