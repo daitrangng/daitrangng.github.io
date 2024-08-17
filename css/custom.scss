@@ -102,6 +102,26 @@ a:focus {
   }
 }
 
+.activities {
+  list-style: circle;
+
+  .act-item {
+    padding: 7px 0;
+    .name, .more {
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+    .name {
+
+    }
+    .more {
+
+    }
+  }
+}
+
 .navbar-custom {
   // background-color: var(--main-bg);
   background: linear-gradient(180deg, var(--main-bg) 0%, var(--main-bg-2) 100%);
@@ -117,7 +137,9 @@ a:focus {
 .alt-color:nth-child(even) {
   // background-color: var(--main-bg);
   background: linear-gradient(180deg, var(--main-bg) 0%, var(--main-bg-2) 100%);
-  padding-bottom: 0px;
+  &:not(.not-pb-0) {
+    padding-bottom: 0px;
+  }
 }
 
 footer {

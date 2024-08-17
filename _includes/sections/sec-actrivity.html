@@ -1,0 +1,13 @@
+<h2{% if include.ref %} id="{{ include.ref }}" {% endif %} class="section-title">{{ include.heading }}</h2>
+  {% if include.ref-title %}
+  <h4><a class="txt-color" href="{{ include.ref }}">{{ include.ref-title }}</a></h4>
+  {% endif %}
+
+<ul class="activities">
+  {% for item in include.source limit: include.limit %}
+    <li class="act-item">
+      <div class="name">{{item.activity | markdownify}}</div>
+      {% if item.more %}<div class="more">{{item.more | markdownify}}</div>{% endif %}
+    </li>
+  {% endfor %}
+</ul>

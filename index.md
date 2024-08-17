@@ -48,7 +48,7 @@ css:
 <!-- services / activities -->
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
-  {% include sections/sec-publications.html
+  {% include sections/sec-actrivity.html
     heading="Services / Extracurricular Activies"
     source=site.data.activities
     ref="activities"
@@ -89,7 +89,7 @@ css:
 </section>
 
 <!-- contact -->
-<section class="alt-color">
+<section class="alt-color not-pb-0">
   {% include sections/sec-front-md.html %}
   {% include sections/sec-contact.html %}
   {% include sections/sec-back.html %}
