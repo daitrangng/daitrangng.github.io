@@ -17,7 +17,7 @@ css:
   <div class="me-description">
     Research interest:
     <ul>
-      <li>Optimization, Optimal Control, Nonlinear and Variational Analysis</li>
+      <li>Optimization, Optimal Control, Nonlinear and Variational Analysis, Numerical Analysis</li>
       <li>ODEs/PDEs, Statistics, Data Science, Dynamical Systems and Applications</li>
     </ul>
   </div>
