@@ -104,12 +104,16 @@ a:focus {
 
 .publications {
   .title {
+    color: #000;
     i {
       color: #333;
     }
   }
   .name {
-    color: #333;
+    color: #555;
+    &:hover {
+      color: #333;
+    }
     b {
       color: #000;
     }

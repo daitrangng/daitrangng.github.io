@@ -17,7 +17,7 @@
     {% if item.author %}
       <div class="name">
         {% for name in item.author %}{% unless forloop.last %}{% unless forloop.first %},{% endunless %} {% else %}{%
-          unless forloop.first %} and {% endunless %}{% endunless %}{% if name == 'T. Nguyen' %}<b>{% endif %}{{ name }}{% if name == 'T. Nguyen' %}</b>{% endif %}{% endfor %}.
+          unless forloop.first %} and {% endunless %}{% endunless %}{% if name == 'T. Nguyen' or name == 'Trang Nguyen' %}<b>{% endif %}{{ name }}{% if name == 'T. Nguyen' or name == 'Trang Nguyen' %}</b>{% endif %}{% endfor %}.
       </div>
     {% endif %}
 
