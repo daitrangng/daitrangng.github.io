@@ -5,40 +5,24 @@
 
 <ul class="publications">
   {% for item in include.source limit: include.limit %}
-  <li class="item">
-    {% if item.title %}
-      <div class="title">
-        <b>{{ item.title }}</b>.
-        {% if item.publisher %}<i>{{ item.publisher }}</i>.{% endif %}
-        {% if item.more %}{{ item.more }}.{% endif %}
-      </div>
-    {% endif %}
+    <li class="item">
+      {% if item.title %}
+        <div class="title">
+          {{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}
+          {% if item.publisher %}
+            <span class="publisher">{{ item.publisher | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
 
-    {% if item.author %}
-      <div class="name">
-        {% for name in item.author %}{% unless forloop.last %}{% unless forloop.first %},{% endunless %} {% else %}{%
-          unless forloop.first %} and {% endunless %}{% endunless %}{% if name == 'T. Nguyen' or name == 'Trang Nguyen' %}<b>{% endif %}{{ name }}{% if name == 'T. Nguyen' or name == 'Trang Nguyen' %}</b>{% endif %}{% endfor %}.
-      </div>
-    {% endif %}
+      {% if item.authors %}
+        <div class="authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+      {% endif %}
 
-    <!-- for activities -->
-    {% if item.activity %}
-      <div class="activity">{{item.activity | markdownify}}</div>
-    {% endif %}
-
-    {% if item.more %}
-      <div class="more">
-        {{ item.more | markdownify }}
-      </div>
-    {% endif %}
-
-    <!-- both -->
-    {% if item.source %}
-      <div class="source">
-        {% if item.source-prefix %}{{ item.source-prefix }}{% endif %}
-        <a href="{{ item.source }}" target="_blank">{{ item.source }}</a>.
-      </div>
-    {% endif %}
-  </li>
+      {% if item.source %}
+        <div class="source"> {{ item.source | markdownify | remove: '<p>' | remove: '</p>' }}
+        </div>
+      {% endif %}
+    </li>
   {% endfor %}
 </ul>

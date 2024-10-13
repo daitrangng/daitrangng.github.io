@@ -6,8 +6,8 @@
 <ul class="activities">
   {% for item in include.source limit: include.limit %}
     <li class="act-item">
-      <div class="name">{{item.activity | markdownify}}</div>
-      {% if item.more %}<div class="more">{{item.more | markdownify}}</div>{% endif %}
+      <div class="name">{{ item.activity | markdownify }}</div>
+      {% if item.more %}<div class="more">{{ item.more | markdownify }}</div>{% endif %}
     </li>
   {% endfor %}
 </ul>

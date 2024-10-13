@@ -103,18 +103,27 @@ a:focus {
 }
 
 .publications {
+  p {
+    margin: 0;
+  }
+
   .title {
     color: #000;
-    i {
-      color: #333;
+    .publisher {
+      color: #555;
+      strong, b {
+        color: #000;
+      }
     }
   }
-  .name {
+
+  .authors {
     color: #555;
     &:hover {
       color: #333;
     }
-    b {
+    b,
+    strong {
       color: #000;
     }
   }
@@ -125,17 +134,16 @@ a:focus {
 
   .act-item {
     padding: 7px 0;
-    .name, .more {
+    .name,
+    .more {
       p {
         margin-top: 0;
         margin-bottom: 0;
       }
     }
     .name {
-
     }
     .more {
-
     }
   }
 }
