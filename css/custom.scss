@@ -102,6 +102,20 @@ a:focus {
   }
 }
 
+.publications {
+  .title {
+    i {
+      color: #333;
+    }
+  }
+  .name {
+    color: #333;
+    b {
+      color: #000;
+    }
+  }
+}
+
 .activities {
   list-style: circle;
 

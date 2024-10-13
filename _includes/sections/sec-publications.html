@@ -6,17 +6,18 @@
 <ul class="publications">
   {% for item in include.source limit: include.limit %}
   <li class="item">
+    {% if item.title %}
+      <div class="title">
+        <b>{{ item.title }}</b>.
+        {% if item.publisher %}<i>{{ item.publisher }}</i>.{% endif %}
+        {% if item.more %}{{ item.more }}.{% endif %}
+      </div>
+    {% endif %}
+
     {% if item.author %}
       <div class="name">
         {% for name in item.author %}{% unless forloop.last %}{% unless forloop.first %},{% endunless %} {% else %}{%
-          unless forloop.first %} and {% endunless %}{% endunless %}<b>{{ name }}</b>{% endfor %}.
-      </div>
-    {% endif %}
-    {% if item.title %}
-      <div class="title">
-        "{{ item.title }}".
-        {% if item.publisher %}<i>{{ item.publisher }}</i>.{% endif %}
-        {% if item.more %}{{ item.more }}.{% endif %}
+          unless forloop.first %} and {% endunless %}{% endunless %}{% if name == 'T. Nguyen' %}<b>{% endif %}{{ name }}{% if name == 'T. Nguyen' %}</b>{% endif %}{% endfor %}.
       </div>
     {% endif %}
 
