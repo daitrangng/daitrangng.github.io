@@ -18,7 +18,7 @@ css:
     Research interest:
     <ul>
       <li>Optimization, Optimal Control, Nonlinear and Variational Analysis, Numerical Analysis</li>
-      <li>ODEs/PDEs, Statistics, Data Science, Dynamical Systems and Applications</li>
+      <li>ODEs/PDEs, Machine Learning, Statistics, Dynamical Systems and Applications</li>
     </ul>
   </div>
   {% include sections/sec-back.html %}
