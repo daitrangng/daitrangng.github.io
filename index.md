@@ -77,6 +77,17 @@ css:
   {% include sections/sec-back.html %}
 </section>
 
+<!-- Media Coverage -->
+<section class="alt-color">
+  {% include sections/sec-front-lg.html %}
+  {% include sections/sec-activity.html
+    heading="Media Coverage"
+    source=site.data.media
+    ref="media"
+  %}
+  {% include sections/sec-back.html %}
+</section>
+
 <!-- award -->
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
