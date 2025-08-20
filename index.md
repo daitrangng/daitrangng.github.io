@@ -12,13 +12,13 @@ css:
 <section class="alt-color me-desc">
   {% include sections/sec-front-md.html %}
   <div class="me-description">
-  My full name is "Thi Dai Trang Nguyen", I am currently a Ph.D. Candidate and Graduate Teaching Assistant in Mathematics at Wayne State University.
+  My full name is "Thi Dai Trang Nguyen", I am an Assistant Professor in the Department of Mathematics and Statistics at South Dakota State University.
   </div>
   <div class="me-description">
     Research interest:
     <ul>
-      <li>Optimization, Optimal Control, Nonlinear and Variational Analysis, Numerical Analysis</li>
-      <li>ODEs/PDEs, Machine Learning, Statistics, Dynamical Systems and Applications</li>
+      <li>Optimization, Optimal Control and Applications, Nonlinear and Variational Analysis</li>
+      <li> Machine Learning, Statistics </li>
     </ul>
   </div>
   {% include sections/sec-back.html %}
