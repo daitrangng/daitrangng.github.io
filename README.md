@@ -4,7 +4,7 @@ __Note__: This can be run with **Github Pages**.
 
 After cloning to a local server, run these:
 
-```
+```bash
 # install git
 
 # install ruby then
