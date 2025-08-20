@@ -18,7 +18,7 @@ css:
     Research interest:
     <ul>
       <li>Optimization, Optimal Control and Applications, Nonlinear and Variational Analysis</li>
-      <li> Machine Learning, Statistics </li>
+      <li> AI & Machine Learning, Statistics </li>
     </ul>
   </div>
   {% include sections/sec-back.html %}
