@@ -36,7 +36,18 @@
   margin-bottom: 30px;
 }
 
-
+.announcement {
+  padding-top: 0;
+  padding-bottom: 0;
+  div{
+    border: 2px solid #c72797;
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+  p {
+    margin: 0;
+  }
+}
 
 .alert-success{
   overflow: hidden;
@@ -74,6 +85,12 @@ a:hover{
 /* Index page */
 section{
   padding: 40px;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 20px;
+  }
 }
 section:last-child{
   padding-bottom: 0px;

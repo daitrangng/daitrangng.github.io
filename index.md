@@ -24,6 +24,12 @@ css:
   {% include sections/sec-back.html %}
 </section>
 
+<section class="announcement">
+  <div markdown="1">
+  **I am seeking motivated graduate students (Master’s and Ph.D.)** to join my research group at South Dakota State University (SDSU). Research focuses on optimization, optimal control, machine learning, and statistical learning.  Research Assistant (RA) and Teaching Assistant (TA) positions are available, and fully-funded. In particular, RA positions are will be awarded as soon as qualified candidates are identified. Please email a brief CV and statement of interest to [thidaitrang.nguyen@sdstate.edu](mailto:thidaitrang.nguyen@sdstate.edu)
+  </div>
+</section>
+
 <!-- education -->
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
