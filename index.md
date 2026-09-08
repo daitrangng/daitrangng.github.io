@@ -12,7 +12,7 @@ css:
 <section class="alt-color me-desc">
   {% include sections/sec-front-md.html %}
   <div class="me-description">
-  My full name is "Thi Dai Trang Nguyen", I am an Assistant Professor in the Department of Mathematics and Statistics at South Dakota State University.
+  My full name is "Thi Dai Trang Nguyen", I am a Tenure-track Assistant Professor in the Department of Mathematics and Statistics at South Dakota State University.
   </div>
   <div class="me-description">
     Research interest:
@@ -34,7 +34,7 @@ css:
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
   {% include sections/sec-timeline.html
-    heading="Education"
+    heading="Experience"
     source=site.data.education
   %}
   {% include sections/sec-back.html %}
