@@ -72,13 +72,13 @@ css:
   {% include sections/sec-back.html %}
 </section>
 
-<!-- conferences -->
+<!-- Talks -->
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
-  {% include sections/sec-conferences.html
+  {% include sections/sec-talks.html
     heading="Talks"
-    source=site.data.conferences
-    ref="conferences"
+    source=site.data.talks
+    ref="talks"
   %}
   {% include sections/sec-back.html %}
 </section>
