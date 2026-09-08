@@ -1,3 +1,11 @@
+- year: "2026 - 2027"
+  courses:
+    - name: "MATH 773- Numerical Optimization, 3 credits"
+      role: "Main instructor"
+      date: "Winter 2027"
+    - name: "MATH 415&515- Advanced Linear Algebra, 3 credits"
+      role: "Main instructor"
+      date: "Fall 2026"
 - year: "2025 - 2026"
   courses:
     - name: "MATH 374- Scientific Computing, 3 credits"
