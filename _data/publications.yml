@@ -1,22 +1,21 @@
 - authors: T. H. Cao, B. S. Mordukhovich, D. Nguyen, **Trang Nguyen**, N. T. Nguyen.
-  publisher: "Submitted, 2025"
-  source: "DOI: [https://doi.org/10.48550/arXiv.2503.00667](https://doi.org/10.48550/arXiv.2503.00667)"
+  publisher: "**Nonlinear Analysis: Hybrid Systems**, vol. 61, 101755 (2026)"
+  source: "DOI: [https://doi.org/10.1016/j.nahs.2026.101755](https://doi.org/10.1016/j.nahs.2026.101755)"
   title: "Optimal Control of Nonconvex Sweeping Processes with Variable Time via Finite-Difference Approximations."
-- authors: "B. S. Mordukhovich, D. Nguyen, **Trang Nguyen**, N. Ortiz-Robinson, V. R\xED\
-    os."
-  publisher: " **Journal of Optimization Theory and Applications** 206, 70 (2025)"
+- authors: G. Colombo, B. S. Mordukhovich, D. Nguyen, **Trang Nguyen**, N. Ortiz-Robinson.
+  publisher: " **Journal of Optimization Theory and Applications**, vol. 208, 114 (2026)"
+  source: "DOI: [https://doi.org/10.1007/s10957-025-02923-x](https://doi.org/10.1007/s10957-025-02923-x)"
+  title: "Optimal control of perturbed sweeping process with applications to general robotic models."
+- authors: "B. S. Mordukhovich, D. Nguyen, **Trang Nguyen**, N. Ortiz-Robinson, V. R\xED\ os."
+  publisher: " **Journal of Optimization Theory and Applications**, vol. 206, 70 (2025)"
   source: "DOI: [ https://doi.org/10.1007/s10957-025-02746-w]( https://doi.org/10.1007/s10957-025-02746-w)"
   title: "Well-posedness and stability of discrete approximations for controlled sweeping processes with time delay."
-- authors: G. Colombo, B. S. Mordukhovich, D. Nguyen, **Trang Nguyen**, N. Ortiz-Robinson.
-  publisher: "to appear in **JOTA**, 2024"
-  source: "DOI: [https://doi.org/10.48550/arXiv.2405.08986](https://doi.org/10.48550/arXiv.2405.08986)"
-  title: "Optimal control of perturbed sweeping process with applications to general robotic models."
 - authors: B. S. Mordukhovich, D. Nguyen, **Trang Nguyen**.
-  publisher: "**Optimization**, pp. 1-33, 2024"
+  publisher: "**Optimization**, pp. 1-33 (2024)"
   source: "DOI: [https://doi.org/10.1080/02331934.2024.2366832](https://doi.org/10.1080/02331934.2024.2366832)"
   title: "Optimal control of sweeping processes in unmanned surface vehicle and nanoparticle modeling."
 - authors: G. Colombo, B. S. Mordukhovich, D. Nguyen, **Trang Nguyen**.
-  publisher: "**Applied Mathematics and Optimization** 89, 40 (2024)"
+  publisher: "**Applied Mathematics and Optimization**, vol. 89, 40 (2024)"
   source: "DOI: [https://doi.org/10.1007/s00245-024-10108-7](https://doi.org/10.1007/s00245-024-10108-7)"
   title: "Discrete approximations and optimality conditions for controlled free-time sweeping processes."
 - authors: G. Colombo, B. S. Mordukhovich, D. Nguyen, **Trang Nguyen**.

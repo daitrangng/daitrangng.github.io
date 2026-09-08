@@ -26,7 +26,7 @@ css:
 
 <section class="announcement">
   <div class="container" markdown="1">
-  **I am seeking motivated graduate students (Master’s and Ph.D.)** to join my research group at South Dakota State University (SDSU). Research focuses on optimization, optimal control, machine learning, and statistical learning.  Research Assistant (RA) and Teaching Assistant (TA) positions are available, and fully-funded. In particular, RA positions are will be awarded as soon as qualified candidates are identified. Please email a brief CV and statement of interest to [trang.nguyen@sdstate.edu](mailto:trang.nguyen@sdstate.edu)
+  **I am seeking motivated graduate students (Master’s and Ph.D.)** to join my research group at South Dakota State University (SDSU). Research focuses on optimization, optimal control and machine learning.  Teaching Assistant (TA) positions are available, and fully-funded. Please email a brief CV and statement of interest to [trang.nguyen@sdstate.edu](mailto:trang.nguyen@sdstate.edu). Due to the high volume of applications, I might not be able to reply to all; If your interests closely align with my research areas, you will receive an email to schedule a meeting or potential next steps.
   </div>
 </section>
 
