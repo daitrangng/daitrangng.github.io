@@ -76,7 +76,7 @@ css:
 <section class="alt-color">
   {% include sections/sec-front-lg.html %}
   {% include sections/sec-conferences.html
-    heading="Conferences"
+    heading="Talks"
     source=site.data.conferences
     ref="conferences"
   %}
